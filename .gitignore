@@ -31,3 +31,5 @@ config.json
 compile_commands.json
 src/dpp/dpp.rc
 .DS_STORE
+out/install/x64-MSVC-Debug/lib/dpp-10.0/dpp.lib
+out/

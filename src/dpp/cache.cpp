@@ -28,7 +28,7 @@
 
 namespace dpp {
 
-std::unordered_map<managed*, time_t> deletion_queue;
+	std::unordered_map<managed*, time_t, unordered_set_hash, unordered_set_equals> deletion_queue;
 std::mutex deletion_mutex;
 
 #define cache_helper(type, cache_name, setter, getter, counter) \
